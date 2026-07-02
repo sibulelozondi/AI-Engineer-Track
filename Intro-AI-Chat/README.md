@@ -1,8 +1,8 @@
-# 🤖 Intro to AI Chat with LangChain & Google Gemini
+# Intro to AI Chat with LangChain & Google Gemini
 
 My first AI Engineering project using **Python**, **LangChain**, and **Google Gemini**. This application reads data from a text file, sends it to Gemini AI, and displays an intelligent response.
 
-## 🚀 Features
+## Features
 
 - Connects to Google Gemini AI
 - Uses LangChain to interact with an LLM
@@ -12,7 +12,7 @@ My first AI Engineering project using **Python**, **LangChain**, and **Google Ge
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python 3
 - LangChain
@@ -21,7 +21,7 @@ My first AI Engineering project using **Python**, **LangChain**, and **Google Ge
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Intro-AI-Chat/
@@ -33,7 +33,7 @@ Intro-AI-Chat/
 
 ---
 
-## 💻 Code
+## Code
 
 ```python
 from langchain.chat_models import init_chat_model
@@ -54,13 +54,13 @@ response = model.invoke(f"Which of these is best for AI: {data}")
 print(response.content[0]["text"])
 ```
 
-> **⚠️ Note:** Never upload your API key to GitHub. Store it in a `.env` file instead.
+> **Note:** Never upload your API key to GitHub. Store it in a `.env` file instead.
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
-## 1️⃣ Project Structure
+## Project Structure
 
 Shows the project folders and files.
 
@@ -68,7 +68,7 @@ Shows the project folders and files.
 
 ---
 
-## 2️⃣ Source Code
+## Source Code
 
 Reading a text file and sending it to Google Gemini.
 
@@ -76,7 +76,7 @@ Reading a text file and sending it to Google Gemini.
 
 ---
 
-## 3️⃣ AI Response
+## AI Response
 
 Gemini analyzes the file and returns an AI-generated answer.
 
@@ -84,7 +84,7 @@ Gemini analyzes the file and returns an AI-generated answer.
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 ```bash
 pip install langchain
@@ -95,7 +95,7 @@ python Main.py
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 - Working with Large Language Models (LLMs)
 - Using LangChain
@@ -105,10 +105,8 @@ python Main.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Sibulelo Zondi**
 
-I'm documenting my AI Engineering journey by building projects from beginner to advanced, with the goal of becoming a remote AI Engineer and eventually building my own AI company.
-
-⭐ If you found this project helpful, feel free to star the repository!
+I'm documenting my AI Engineering journey by building projects from beginner to advanced, with the goal of becoming a remote AI Engineer, Innovation lead, AI Software developer and eventually building my own AI company.
