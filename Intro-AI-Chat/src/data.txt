@@ -1,0 +1,4 @@
+samsung
+iphone
+xiaomi
+huawei
